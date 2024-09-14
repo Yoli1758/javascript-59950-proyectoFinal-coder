@@ -41,8 +41,8 @@ const menuItems = [
   { name: 'Carta', link: 'products', icon: '' },
   { name: 'Somos', link: 'whous', icon: '' },
   { name: 'Contacto', link: 'contact', icon: '' },
-  { name: 'login', link: 'login', icon: '../img/iconos/login.png' },
-  { name: 'cart', link: 'cart', icon: '../img/iconos/compras.png' }
+  { name: 'login', link: 'login', icon: "../img/iconos/login.png" },
+  { name: 'cart', link: 'cart', icon: "../img/iconos/compras.png" }
 ];
 
 
