@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "imagen": "areapa_reinapepia.jpg",
+        "nombre": "Reina Pepiada",
+        "descripcion": "Ensalada de pollo desmechado, aguacate, cebolla y mayonesa.",
+        "precio": 1200,
+        "tipo": "pollo"
+    },
+    {
+        "id": 2,
+        "imagen": "arepa_domino.png",
+        "nombre": "Domino",
+        "descripcion": "Caraotas negras (frijoles o porotos negros) y Queso llanero o Queso blanco duro.",
+        "precio": 1500,
+        "tipo": "porotos"
+    },
+    {
+        "id": 3,
+        "imagen": "Arepa-de-pollo.jpg",
+        "nombre": "Pollo",
+        "descripcion": "Guiso de Pollo y Vegetales.",
+        "precio": 1320,
+        "tipo": "pollo"
+    },
+    {
+        "id": 4,
+        "imagen": "arepa_a_caballo.png",
+        "nombre": "A Caballo",
+        "descripcion": "Huevo Frito encima de la arepa.",
+        "precio": 1320,
+        "tipo": "huevos"
+    },
+    {
+        "id": 5,
+        "imagen": "arepa_mata_perro.png",
+        "nombre": "Mata Perro",
+        "descripcion": "Arepa frita rellena con Mortadela, Cuajada, Lechuga, Tomate, Caraotas negras, Carne mechada, Mayonesa o Salsa tartara",
+        "precio": 1320,
+        "tipo": "carne"
+    },
+    {
+        "id": 6,
+        "imagen": "arepa_pabellon.png",
+        "nombre": "Pabellon",
+        "descripcion": "Carne Mechada (desmechada), Caraotas (frijoles negros), tajadas (plátano maduro frito) y Queso blanco rallado",
+        "precio": 1320,
+        "tipo": "carne"
+    },
+    {
+        "id": 7,
+        "imagen": "arepa_perico.png",
+        "nombre": "Perico",
+        "descripcion": "Revoltillo de huevos con tomate, cebolla y ají dulce",
+        "precio": 1320,
+        "tipo": "huevos"
+    },
+    {
+        "id": 8,
+        "imagen": "quesoAmarillo.jpeg",
+        "nombre": "Queso Amarillo",
+        "descripcion": "Queso Amarillo rallado",
+        "precio": 1320,
+        "tipo": "otras"
+    },
+    {
+        "id": 9,
+        "imagen": "pelua.jpeg",
+        "nombre": "Pelua",
+        "descripcion": "Carne mechada de res y Queso blanco rallado.",
+        "precio": 1320,
+        "tipo": "carne"
+    },
+    {
+        "id": 10,
+        "imagen": "arepa_pollo_aguacate.png",
+        "nombre": "Pollo y Aguacate",
+        "descripcion": "Guiso de Pollo y Vegetales con Rodajas de Aguacate (palta)",
+        "precio": 1320,
+        "tipo": "pollo"
+    },
+    {
+        "id": 11,
+        "imagen": "rumbera.jpeg",
+        "nombre": "Rumbera",
+        "descripcion": "Pernil y Queso rayado.",
+        "precio": 1320,
+        "tipo": "carne"
+    },
+    {
+        "id": 12,
+        "imagen": "arepa_patapata.png",
+        "nombre": "Patapata",
+        "descripcion": "Caraotas negras, aguacate y Queso amarillo rallado.",
+        "precio": 1320,
+        "tipo": "porotos"
+    },
+    {
+        "id": 13,
+        "imagen": "rompecolchon1.jpeg",
+        "nombre": "Rompe Colchon",
+        "descripcion": "Camarones cocidos, Calamares cocidos, Pulpo, Guacuco, Mejillones, Pepitonas",
+        "precio": 1320,
+        "tipo": "otras"
+    },
+    {
+        "id": 14,
+        "imagen": "arepa_santa_barbara.png",
+        "nombre": "Santa Barbara",
+        "descripcion": "Bistec de Carne, Queso, Aguacate y Salsa de Ajo.",
+        "precio": 1700,
+        "tipo": "carne"
+    },
+    {
+        "id": 15,
+        "imagen": "sifrina.jpeg",
+        "nombre": "Sifrina",
+        "descripcion": "Ensalada de pollo desmechado, aguacate, cebolla, mayonesa y Queso Amarillo",
+        "precio": 1500,
+        "tipo": "pollo"
+    },
+    {
+        "id": 16,
+        "imagen": "jamonQueso.jpeg",
+        "nombre": "Jamon y Queso",
+        "descripcion": "Jamón Cocido y Queso.",
+        "precio": 1500,
+        "tipo": "otras"
+    },
+    {
+        "id": 17,
+        "imagen": "llanera.jpeg",
+        "nombre": "Llanera",
+        "descripcion": "Carne de res asada cortada en tiras, tomate, aguacate y Queso blanco rallado.",
+        "precio": 1500,
+        "tipo": "carne"
+    },
+    {
+        "id": 18,
+        "imagen": "pernil.jpeg",
+        "nombre": "Pernil",
+        "descripcion": "Pernil de cerdo horeado y se acompaña con tomate y mayonesa.",
+        "precio": 1500,
+        "tipo": "otras"
+    },
+    {
+        "id": 19,
+        "imagen": "ensaladaAtun.jpeg",
+        "nombre": "Atun",
+        "descripcion": "Ensalada de Atún",
+        "precio": 1500,
+        "tipo": "otras"
+    },
+    {
+        "id": 20,
+        "imagen": "chorizos1.jpeg",
+        "nombre": "chorizo",
+        "descripcion": "chorizo de cerdo y morron asado.",
+        "precio": 1500,
+        "tipo": "otras"
+    },
+    {
+        "id": 21,
+        "imagen": "tumbarrancho.jpeg",
+        "nombre": "tumbarrancho",
+        "descripcion": "Queso de mano, mortadela rebanada, tomates en tiras, mayonesa y salsa de tomate al gusto",
+        "precio": 1500,
+        "tipo": "otras"
+    },
+    {
+        "id": 22,
+        "imagen": "cabimera.jpeg",
+        "nombre": "Cabimera",
+        "descripcion": "Carne desmechada, jamón cocido, queso, huevos cocidos  cortados en rebanadas, salsa de tomate, mayonesa.",
+        "precio": 1500,
+        "tipo": "carne"
+    },
+    {
+        "id": 23,
+        "imagen": "chicharron.jpeg",
+        "nombre": "Chicharron",
+        "descripcion": "Chicharrón frito",
+        "precio": 1000,
+        "tipo": "otras"
+    },
+    {
+        "id": 24,
+        "imagen": "salchicha.jpeg",
+        "nombre": "salchicha",
+        "descripcion": "Salchicha",
+        "precio": 1000,
+        "tipo": "otras"
+    }
+]

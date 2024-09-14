@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arepas Online: Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="header" class="header">
+        </header>
+        <main class="main">
+            <div class="banner">
+                <div class="bienvenida">
+                    <h1 id="HolaUsuario">Hola</h1>
+                    <p>Te damos la bienvenida a "Arepas Online" para darte un gusto
+                        con sabor a Venezuela</p>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="swiperImg">
+                            <img src="/img/arepas/arepa_pelua.png" alt="pelua">
+                            <img src="/img/arepas/arepa_pabellon.png" alt="pabellon">
+                        </div>
+                        <div class="swiper-slide" id="swiperImg">
+                            <img src="/img/arepas/areapa_reinapepia.jpg" alt="reinapepia">
+                            <img src="/img/arepas/arepa_perico.png" alt="perico">
+                        </div>
+                        <div class="swiper-slide" id="swiperImg">
+                            <img src="/img/arepas/jamonQueso.jpeg" alt="llanera">
+                            <img src="/img/arepas/chicharron.jpeg" alt="chicharron">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="div-nav-ovalo1">
+                    <a href="./products.html">Carta</a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="grid-container">
+                <div class="grid-item-1">
+                    <img src="./img/ArepasonlineLogo.png" alt="logo">
+                    <p>Creado con Amor de Venezuela para Argentina</p>
+                    <div class="img-group">
+                        <img src="./img/iconos/venezuela.jpeg" alt="venezuela">
+                        <img src="./img/iconos/argentina.jpg" alt="argentina">
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <nav>
+                        <a href="#">Terminos y condiciones</a>
+                        <a href="#">Preguntas Frecuentes</a>
+                        <a href="#">Politica de devoluciones y reembolsos</a>
+                    </nav>
+                </div>
+                <div class="grid-item-3">
+                    <h2>Contáctanos</h2>
+                    <nav>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    </nav>
+                    <h3>Medios de envio</h3>
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="grid-item-4">
+                    <h2>Siguenos</h2>
+                    <nav>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i>Arepas.Online</a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i>@ArepasOnline</a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i>@ArepasOnline</a>
+                    </nav>
+                </div>
+                <div class="grid-item-5">
+                    <hr>
+                    <nav>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <i class="fa-solid fa-handshake"></i>
+                    </nav>
+                </div>
+            </div>
+            <a class="whatsapp" href="https://api.whatsapp.com/send?phone=225558899955&text=mas%20info" class="whatsapp"
+                target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+        </footer>
+    </div>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/cartService.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            // autoplay
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>

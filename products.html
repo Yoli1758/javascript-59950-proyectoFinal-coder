@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arepas Online: Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header" class="header">
+        </header>
+        <main class="main">
+            <div class="productos-contenedor">
+                <div class="filter-box">
+                    <div class="search">
+                        <label for="busque"><strong>Buscar</strong>
+                            <input type="text" id="busque" name="busque">
+                            <button id="buscar">🔎</button>
+                        </label>
+                    </div>
+                    <div class="seleccion-arepas">
+                        <h3>Rellenos Arepas</h3>
+                        <div class="filter-container">
+                            <label for="all">Todos <input class="selector" type="radio" id="all" name="filter"
+                                    value="all" checked></label>
+                            <label for="chicken">Pollo <input class="selector" type="radio" id="chicken" name="filter"
+                                    value="pollo"></label>
+                            <label for="meat">Carne <input class="selector" type="radio" id="meat" name="filter"
+                                    value="carne"></label>
+                            <label for="egg">Huevos <input class="selector" type="radio" id="egg" name="filter"
+                                    value="huevos"></label>
+                            <label for="beans">Porotos <input class="selector" type="radio" id="beans" name="filter"
+                                    value="porotos"></label>
+                            <label for="others">Otros <input class="selector" type="radio" id="others" name="filter"
+                                    value="otras"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productos-section">
+                    <h1 class="titulo-productos">Carta</h1>
+                    <div id="productos-container"></div>
+                    <div class="leyenda" id="leyenda">
+                        <h5>Lo sentimos..!</h5>
+                        <h4>No disponemos de la Busqueda</h4>
+                        <img src="./img/ojostristes.png" alt="bolsa de compras">
+                        <p>Selecciona alguna opcion de la seccion de Filtros</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="grid-container">
+                <div class="grid-item-1">
+                    <img src="./img/ArepasonlineLogo.png" alt="logo">
+                    <p>Creado con Amor de Venezuela para Argentina</p>
+                    <div class="img-group">
+                        <img src="./img/iconos/venezuela.jpeg" alt="venezuela">
+                        <img src="./img/iconos/argentina.jpg" alt="argentina">
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <nav>
+                        <a href="#">Terminos y condiciones</a>
+                        <a href="#">Preguntas Frecuentes</a>
+                        <a href="#">Politica de devoluciones y reembolsos</a>
+                    </nav>
+                </div>
+                <div class="grid-item-3">
+                    <h2>Contáctanos</h2>
+                    <nav>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    </nav>
+                    <h3>Medios de envio</h3>
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="grid-item-4">
+                    <h2>Siguenos</h2>
+                    <nav>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i>Arepas.Online</a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i>@ArepasOnline</a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i>@ArepasOnline</a>
+                    </nav>
+                </div>
+                <div class="grid-item-5">
+                    <hr>
+                    <nav>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <i class="fa-solid fa-handshake"></i>
+                    </nav>
+                </div>
+            </div>
+            <a class="whatsapp" href="https://api.whatsapp.com/send?phone=225558899955&text=mas%20info" class="whatsapp"
+                target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+        </footer>
+    </div>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/products.js" defer></script>
+    <script src="./js/cartService.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
